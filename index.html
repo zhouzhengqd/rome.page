@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Academic Project Page</title>
+  <link rel="icon" type="image/x-icon" href="static/images/logo.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        tags: 'ams',
+        processEscapes: true
+      }
+    };
+  </script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body"></div>
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <!-- Add logo above the title -->
+          <img src="static/images/logo.png" alt="Paper Logo" style="max-width: 150px; margin-bottom: 20px;">
+          <h1 class="title is-1 publication-title">
+            <span style="font-weight: bold; position: relative; color: transparent; display: inline-block; background-color: black; -webkit-background-clip: text; background-image: url('./static/images/fire-flames.gif'); background-size: 100% 100%; animation: flameEffect 0.5s infinite linear;">R</span>
+				<span style="font-weight: bold; position: relative; color: transparent; display: inline-block; background-color: black; -webkit-background-clip: text; background-image: url('./static/images/fire-flames.gif'); background-size: 100% 100%; animation: flameEffect 0.5s infinite linear;">O</span>
+				<span style="font-weight: bold; position: relative; color: transparent; display: inline-block; background-color: black; -webkit-background-clip: text; background-image: url('./static/images/fire-flames.gif'); background-size: 100% 100%; animation: flameEffect 0.5s infinite linear;">M</span>
+				<span style="font-weight: bold; position: relative; color: transparent; display: inline-block; background-color: black; -webkit-background-clip: text; background-image: url('./static/images/fire-flames.gif'); background-size: 100% 100%; animation: flameEffect 0.5s infinite linear;">E</span> is Forged in Adversity: <span style="font-weight: bold; position: relative; color: transparent; display: inline-block; background-color: black; -webkit-background-clip: text; background-image: url('./static/images/fire-flames.gif'); background-size: 100% 100%; animation: flameEffect 0.5s infinite linear;">R</span>
+				<span style="font-weight: bold; position: relative; color: transparent; display: inline-block; background-color: black; -webkit-background-clip: text; background-image: url('./static/images/fire-flames.gif'); background-size: 100% 100%; animation: flameEffect 0.5s infinite linear;">O</span>bust Distilled Datasets via Infor<span style="font-weight: bold; position: relative; color: transparent; display: inline-block; background-color: black; -webkit-background-clip: text; background-image: url('./static/images/fire-flames.gif'); background-size: 100% 100%; animation: flameEffect 0.5s infinite linear;">M</span>ation Bottlen<span style="font-weight: bold; position: relative; color: transparent; display: inline-block; background-color: black; -webkit-background-clip: text; background-image: url('./static/images/fire-flames.gif'); background-size: 100% 100%; animation: flameEffect 0.5s infinite linear;">E</span>ck</h1>
+           	<!-- 标题部分 -->
+			<!-- <span style="font-size: 36px; font-weight: bold; line-height: 1.2;">
+				<span style="font-size: 36px; font-weight: bold; position: relative; color: transparent; display: inline-block; background-color: black; -webkit-background-clip: text; background-image: url('./static/images/fire-flames.gif'); background-size: 100% 100%; animation: flameEffect 0.5s infinite linear;">R</span>
+				<span style="font-size: 36px; font-weight: bold; position: relative; color: transparent; display: inline-block; background-color: black; -webkit-background-clip: text; background-image: url('./static/images/fire-flames.gif'); background-size: 100% 100%; animation: flameEffect 0.5s infinite linear;">O</span>
+				<span style="font-size: 36px; font-weight: bold; position: relative; color: transparent; display: inline-block; background-color: black; -webkit-background-clip: text; background-image: url('./static/images/fire-flames.gif'); background-size: 100% 100%; animation: flameEffect 0.5s infinite linear;">M</span>
+				<span style="font-size: 36px; font-weight: bold; position: relative; color: transparent; display: inline-block; background-color: black; -webkit-background-clip: text; background-image: url('./static/images/fire-flames.gif'); background-size: 100% 100%; animation: flameEffect 0.5s infinite linear;">E</span> -->
+		
+				<!-- 其他文字部分 -->
+				<!-- <span style="font-size: 36px; font-weight: normal; color: #333;">
+					is Forged in Adversity: Robust Distilled Datasets via Information Bottleneck
+				</span>
+			</span> -->
+          <div class="is-size-5 publication-authors">
+            <!-- Paper authors -->
+            <span class="author-block">
+              <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Zheng Zhou</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Wenquan Feng</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Qiaosheng Zhang</a><sup>2,3</sup>,</span>
+              <span class="author-block">
+                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Shuchang Lyu</a><sup>1,*</sup>,</span>
+                <span class="author-block">
+                  <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Qi Zhao</a><sup>1</sup>,</span>
+                  <span class="author-block">
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Guangliang Cheng</a><sup>4</sup>,</span>
+
+          </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">
+                      <sup>1</sup> Beihang University, <sup>2</sup> Shanghai AI Lab, <sup>3</sup> Shanghai Innovation Institute, <sup>4</sup> University of Liverpool 
+                      <br>
+                      <span style="font-weight: bold;">ICML, 2025</span>
+                    </span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding Author</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper (Comming soon)</span>
+                      </a>
+                    </span>
+
+                    <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/zhouzhengqd/ROME" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="https://share.multcloud.link/share/b925cdfa-6a21-4168-b7d6-33a88a416bc0" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file"></i>
+                      </span>
+                      <span>Distilled Dataset</span>
+                    </a>
+                  </span>
+                  <span class="link-block">
+                    <a href="https://share.multcloud.link/share/b925cdfa-6a21-4168-b7d6-33a88a416bc0" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file"></i>
+                    </span>
+                    <span>Model</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <!-- <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv (Comming soon)</span>
+                </a>
+              </span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="static/videos/banner_video.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        ROME is a robust dataset distillation method that integrates information bottleneck theory to enhance adversarial resilience without compromising training efficiency. Watch the video to learn more about its motivation, design, and key results.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Dataset Distillation (DD) compresses large datasets into smaller, synthetic subsets, enabling models trained on them to achieve performance comparable to those trained on the full data. However, these models remain vulnerable to adversarial attacks, limiting their use in safety-critical applications. While adversarial robustness has been extensively studied in related fields, research on improving DD robustness is still limited. To address this, we propose <strong><u>ROME</u></strong>, a novel method that enhances the adversarial <strong><u>RO</u></strong>bustness of DD by leveraging the Infor<strong><u>M</u></strong>ation Bottlen<strong><u>E</u></strong>ck (IB) principle. ROME includes two components: a performance-aligned term to preserve accuracy and a robustness-aligned term to improve robustness by aligning feature distributions between synthetic and perturbed images. Furthermore, we introduce the Improved Robustness Ratio (I-RR), a refined metric to better evaluate DD robustness. Extensive experiments on CIFAR-10 and CIFAR-100 demonstrate that ROME outperforms existing DD methods in adversarial robustness, achieving maximum I-RR improvements of nearly 40% under white-box attacks and nearly 35% under black-box attacks. Our code is available at <a href="https://github.com/zhouzhengqd/ROME" target="_blank">https://github.com/zhouzhengqd/ROME</a>.
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Background & Motivation -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Background &amp; Motivation</h2>
+        <div class="content has-text-justified">
+          <p>
+            <strong>1. What is Dataset Distillation?</strong><br>
+            Dataset distillation compresses large datasets into compact synthetic subsets, significantly reducing training time and computation while maintaining model performance. However, most dataset distillation methods are efficient but vulnerable to adversarial attacks, limiting their reliability in safety-critical areas like face recognition, autonomous driving, and object detection.
+          </p>
+          <p>
+            <strong>2. How to enhance the robustness of models?</strong><br>
+            Adversarial robustness is a key research focus. A common way to improve it is adversarial training, but this method is costly and hard to apply in data-efficient settings like dataset distillation.
+          </p>
+          <p>
+            <strong>3. Existing Challenges</strong>
+            <ul>
+              <li>High retraining cost, making the process computationally expensive.</li>
+              <li>Robustness–accuracy trade-off, where improving adversarial robustness often reduces clean accuracy.</li>
+            </ul>
+          </p>
+          <p>
+            <strong>4. Contributions</strong>
+            <ul>
+              <li>We propose ROME, which applies the information bottleneck to dataset distillation and incorporates adversarial perturbations to create robust distilled datasets.</li>
+              <li>We present two training terms: a performance-aligned term that preserves accuracy and a robustness-aligned term that enhances adversarial robustness.</li>
+              <li>We introduce I-RR, a refined metric for dataset distillation robustness. Experiments on CIFAR-10 and CIFAR-100 show our method outperforms others in both white-box and black-box attacks.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<hr>
+<!-- Method Section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Method</h2>
+        <!-- Framework Image -->
+        <div class="has-text-centered" style="margin-bottom: 2em;">
+          <img src="static/images/method.png" alt="ROME Framework: Performance-Aligned and Robustness-Aligned Terms" style="max-width: 100%; height: auto;">
+          <p class="is-size-6" style="color: #888;">Figure: ROME framework overview. The method consists of a performance-aligned term and a robustness-aligned term.</p>
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            We propose <strong>ROME</strong>, a robust dataset distillation framework that leverages the Information Bottleneck (IB) principle to enhance adversarial robustness. Our method consists of two key components: a performance-aligned term to preserve accuracy and a robustness-aligned term to improve resistance to adversarial attacks.
+          </p>
+          <p>
+            <strong>1. Information Bottleneck Objective</strong><br>
+            The IB principle seeks to learn a compressed representation <em>Z</em> of the input <em>X</em> that retains maximal information about the target <em>Y</em>. The IB objective is formulated as:
+          </p>
+          <p class="has-text-centered">
+            <span style="font-size: 1.2em;">
+              <strong>
+                <span style="font-family: 'Times New Roman', Times, serif;">
+                  \[
+                  \mathcal{L}_{IB} = I(Z; X) - \beta I(Z; Y)
+                  \]
+                </span>
+              </strong>
+            </span>
+          </p>
+          <p>
+            where \( I(\cdot;\cdot) \) denotes mutual information and \( \beta \) controls the trade-off between compression and prediction.
+          </p>
+          <p>
+            <strong>2. Formulating ROME via information bottleneck</strong><br>
+           The ROME can be defined as a distillation method that applies the IB principle to dataset distillation. The distilled dataset is generated by minimizing the IB objective while ensuring high accuracy and robustness:          </p>
+          <p class="has-text-centered">
+            <span style="font-size: 1.2em;">
+              <strong>
+                <span style="font-family: 'Times New Roman', Times, serif;">
+                  \[
+                  \begin{aligned}
+                    &\mathcal{L}_{ROME} = I(\mathcal{Y};\mathcal{Z}) - \beta I(\mathcal{X};\mathcal{Z}|\hat{\mathcal{X}}) \\
+                    &\phantom{\mathcal{L}_{ROME}} \geq \mathbb{E}_{p(x, \hat{x}, y)p(z|x,\hat{x},y)} \left[ \log q(y|z) 
+                    - \beta \log \frac{p(z|x)}{q(z|\hat{x})} \right]
+                  \end{aligned}
+                  \]
+                </span>
+              </strong>
+            </span>
+          </p>
+          <p>
+            <strong>2. Performance-Aligned Term</strong><br>
+            The performance-aligned term can also be expressed as follows:
+          </p>
+          <p class="has-text-centered">
+            <span style="font-size: 1.2em;">
+              <strong>
+                <span style="font-family: 'Times New Roman', Times, serif;">
+                  \[
+                  \begin{aligned}
+                    &\mathcal{L}_{\text{Perf_Alig}}=\mathbb{E}_{p(x, \hat{x}, y)p(z|x,\hat{x},y)} \left[ \log q(y|z) \right] \\
+                    &\phantom{\mathcal{L}_{\text{Perf_Alig}}} = \mathbb{E}_{p(x, \hat{x}, y)} \left[\mathbb{CE} \left[ y^t, f(x)\right]\right]
+                  \end{aligned}
+                  \]
+                </span>
+              </strong>
+            </span>
+          </p>
+          <p>
+            where $f(\cdot)$ is a pretrained model robust to adversarial attacks, and $f(x)$ denotes its logits output for input $x$. $y^t$ is the one-hot true label vector, and $\mathbb{CE}$ denotes cross-entropy.
+          </p>
+          <p>
+            <strong>3. Robustness-Aligned Term</strong><br>
+            The robustness-aligned term can also be expressed as the following lower bound, derived by scaling Pinsker's inequality:
+          </p>
+          <p class="has-text-centered">
+            <span style="font-size: 1.2em;">
+              <strong>
+                <span style="font-family: 'Times New Roman', Times, serif;">
+                  \[
+                  \begin{aligned}
+                    &\mathcal{L}_{\text{Rob_Alig}}=\mathbb{E}_{p(x, \hat{x}, y)p(z|x,\hat{x},y)} \left[ \beta \log \frac{p(z|x)}{q(z|\hat{x})}\right] \\
+                    &\phantom{\mathcal{L}_{\text{Rob_Alig}}} = \mathbb{E}_{p(x,\hat{x},y)} \left\Vert \mathbb{E}_{x \sim \mathcal{X}} \left[ e(x) \right] - \mathbb{E}_{\hat{x} \sim \hat{\mathcal{X}}} \left[ e(\hat{x}) \right] \right\Vert^2
+                  \end{aligned}
+                  \]
+                </span>
+              </strong>
+            </span>
+          </p>
+          <p>
+            where $\mathcal{X}$ and $\hat{\mathcal{X}}$ are class-aligned sample sets (i.e., $\mathcal{X}$ contains synthetic samples and $\hat{\mathcal{X}}$ perturbed original samples, both partitioned by the label $y$), $p(x,\hat{x},y)$ is the joint distribution, $e(\cdot)$ is the embedding layer output, and $\Vert \cdot \Vert^2$ denotes the squared Total Variation distance.
+          </p>
+          <p>
+            <strong>4. Monte Carlo Approximation</strong><br>
+            To approximate the expectations in \(\mathcal{L}_{\text{Perf_Alig}}\) and \(\mathcal{L}_{\text{Rob_Alig}}\), we apply Monte Carlo sampling. Specifically, for each class \(c \in \mathcal{C} = \{0, 1, \dots, \mathcal{C}-1\}\), we draw synthetic samples \(x\) and corresponding perturbed original samples \(\hat{x}\) under class \(c\). We then aggregate the sampled pairs across all classes with equal weighting to construct empirical estimates. The performance-aligned term is approximated as:
+          </p>
+          <p class="has-text-centered">
+            <span style="font-size: 1.2em;">
+              <strong>
+                <span style="font-family: 'Times New Roman', Times, serif;">
+                  \[
+                  \mathcal{L}_{\text{Perf_Alig}} = \sum_{c=0}^{\mathcal{C}-1}\frac{1}{\vert \mathcal{X}_c \vert}\sum_{x\in\mathcal{X}_c} \mathbb{CE}\left[y^t_c,f(x)\right]
+                  \]
+                </span>
+                <p>
+                  while the robustness-aligned term is estimated by
+                </p>
+                <span style="font-family: 'Times New Roman', Times, serif;">
+                  \[
+                  \mathcal{L}_{\text{Rob_Alig}} = \sum_{c=0}^{\mathcal{C}-1} \left\Vert \frac{1}{\vert \mathcal{X}_c\vert}\sum_{x \in \mathcal{X}_c}e(x) - \frac{1}{\vert \hat{\mathcal{X}_c}\vert}\sum_{\hat{x} \in \hat{\mathcal{X}}_c}e(\hat{x}) \right\Vert^2
+                  \]
+                </span>
+              </strong>
+            </span>
+          </p>
+          <p>
+            where $\mathcal{X}_c$ and $\hat{\mathcal{X}}_c$ are the synthetic and perturbed sample subsets of category $c$, with sizes $\vert \mathcal{X}_c\vert$ and $\vert \hat{\mathcal{X}}_c\vert$, respectively.
+          </p>
+          
+          <p>
+            <strong>5. Overall Objective</strong><br>
+            The final objective combines both terms:
+          </p>
+          <p class="has-text-centered">
+            <span style="font-size: 1.2em;">
+              <strong>
+                <span style="font-family: 'Times New Roman', Times, serif;">
+                  \[
+                  \mathcal{L}_{\text{TOTAL}} = (1-\alpha)\mathcal{L}_{\text{Perf\_Alig}} + \alpha\mathcal{L}_{\text{Rob\_Alig}}
+                  \]
+                </span>
+              </strong>
+            </span>
+          </p>
+          <p>
+            where the hyperparameter $\alpha$ serves as the weighting factor for the total loss function and is adjustable. By tuning $\alpha$, we can customize the loss function to optimize performance.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<hr>
+
+<!-- Experiments Section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Experiments</h2>
+        <div class="content has-text-justified">
+          <p>
+            We conduct extensive experiments on CIFAR-10 and CIFAR-100 datasets to evaluate the robustness of models trained with ROME against various adversarial attacks. The results demonstrate that ROME significantly enhances model robustness compared to existing dataset distillation methods, achieving substantial improvements in both white-box and black-box attack scenarios.
+        </div>
+        <!-- Tabular Results Image -->
+        <div class="has-text-centered" style="margin-bottom: 2em;">
+          <img src="static/images/white_box.png" alt="Experimental Results Table" style="max-width: 100%; height: auto;">
+          <p class="is-size-6" style="color: #888;"></p>
+            Table 1: Comparison of model robustness when trained using various DD methods with IPC settings of {1, 10, 50}, against both white-box targeted and untargeted attacks on the CIFAR-10 and CIFAR-100 datasets. Robustness evaluation metrics include RR and CREI, as well as their improved versions I-RR and I-CREI. The best results between the baseline and proposed methods are <strong>bold</strong>, while the second-best results are <span style="text-decoration: underline;">underlined</span>. Improvements in metrics compared to the second-best results are highlighted in <span style="color: red;">red</span>.
+          </p>
+        </div>
+        <!-- Carousel for Experimental Images -->
+        <div class="has-text-centered" style="margin-bottom: 2em;">
+          <div id="experiment-carousel" class="carousel results-carousel">
+            <div class="item">
+              <img src="static/images/black_box_tab.png" alt="Experiment Image 1"/>
+              <h2 class="subtitle has-text-centered">
+                Table 2: Comparison of model robustness measured by I-RR for various dataset distillation methods with IPC-50 under targeted and untargeted transfer-based and query-based black-box attacks on CIFAR-10. Best results are in <strong>bold</strong>, second-best <span style="text-decoration: underline;">underlined</span>, and improvements over the second-best highlighted in <span style="color: red;">red</span>.
+              </h2>
+            </div>
+            <div class="item">
+              <img src="static/images/black_box_fig.png" alt="Experiment Image 2"/>
+              <h2 class="subtitle has-text-centered">
+                Figure 3: Robustness heatmap of models trained using diverse dataset distillation methods with IPC-50 on CIFAR-10 under targeted and untargeted attacks. The vertical axis represents attacked models, and the horizontal axis shows models used for transfer attacks. Heatmap values represent I-RR, with <strong>darker colors</strong> indicating <strong>higher I-RR</strong> and thus <strong>better robustness</strong> against adversarial attacks.
+              </h2>
+            </div>
+            <div class="item">
+              <img src="static/images/rob_eff.png" alt="Experiment Image 3"/>
+              <h2 class="subtitle has-text-centered">
+                Table 3: Comparison of adversarial robustness (I-CREI, %) and training time (hours) of ROME and baseline dataset distillation methods on CIFAR-10 (IPC-50) under targeted attacks. "Base" indicates standard distillation training, while "+AdvTrain" refers to the additional time required for adversarial training to improve robustness. Best results, balancing robustness and efficiency, are highlighted in <strong>bold</strong>, and <sup>&dagger;</sup> denotes consistent results from "Base" to "+AdvTrain", indicating no need for adversarial fine-tuning.
+              </h2>
+            </div>
+            <div class="item">
+              <img src="static/images/ablation_tab.png" alt="Experiment Image 4"/>
+              <h2 class="subtitle has-text-centered">
+                Table 4: Ablation studies on the Robust Pretrained Model (RPM) and Adversarial Perturbation (AP) under both targeted and untargeted attacks, evaluated by I-RR and I-CREI on the CIFAR-10 dataset with IPC-50. Best results are highlighted in <strong>bold</strong>.
+              </h2>
+            </div>
+            <div class="item">
+              <img src="static/images/ablation_fig.png" alt="Experiment Image 4"/>
+              <h2 class="subtitle has-text-centered">
+                Figure 4: Ablation study of the hyperparameter &alpha;. (a) Displays the accuracy (y-axis) as a function of &alpha; (x-axis) for different values of &alpha;, and (b) shows the corresponding visualizations for these values.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<hr>
+
+<!-- Visualization Section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Visualization</h2>
+        <div class="has-text-centered" style="margin-bottom: 2em;">
+          <div class="content has-text-justified">
+            <p>
+              The visualizations below illustrate the synthetic datasets generated by ROME under different robust prior configurations. These images highlight how varying settings impact the distribution of synthetic data, providing insights into the effectiveness of ROME in generating robust distilled datasets.
+            </p>
+          </div>
+          <div id="visualization-carousel" class="carousel results-carousel">
+            <div class="item">
+              <img src="static/images/ablation_vis.png" alt="Visualization 1"/>
+              <h2 class="subtitle has-text-centered">
+                Figure 6: Visualization of distilled datasets generated by ROME under different robust prior configurations, showcasing the impact of varying settings on the synthetic data distribution.
+              </h2>
+            </div>
+            <div class="item">
+              <img src="static/images/IPC50_vis.png" alt="Visualization 2"/>
+              <h2 class="subtitle has-text-centered">
+                Figure 7: Visualizations of distilled datasets generated by diverse DD methods with IPC-50 settings on the CIFAR-10 and CIFAR-100.
+              </h2>
+            </div>
+            <div class="item">
+              <img src="static/images/IPC10_vis.png" alt="Visualization 3"/>
+              <h2 class="subtitle has-text-centered">
+                Figure 8: Visualizations of distilled datasets generated by diverse DD methods with IPC-10 settings on the CIFAR-10 and CIFAR-100.
+              </h2>
+            </div>
+            <div class="item">
+              <img src="static/images/IPC1_vis.png" alt="Visualization 4"/>
+              <h2 class="subtitle has-text-centered">
+                Figure 9: Visualizations of distilled datasets generated by diverse DD methods with IPC-1 settings on the CIFAR-10 and CIFAR-100.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Visualization Section -->
+
+<!-- Youtube video -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            <!-- Youtube embed code here -->
+            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End youtube video -->
+
+
+<!-- Video carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Another Carousel</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/carousel1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/carousel2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\
+            <!-- Your video file here -->
+            <source src="static/videos/carousel3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End video carousel -->
+
+
+<!-- Paper poster -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section>
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@inproceedings{zhou2025rome,
+  title     = {ROME is Forged in Adversity: Robust Distilled Datasets via Information Bottleneck},
+  author    = {Zheng Zhou and Wenquan Feng and Qiaosheng Zhang and Shuchang Lyu and Qi Zhao and Guangliang Cheng},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year      = {2025},
+  url       = {https://github.com/zhouzhengqd/ROME}
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content has-text-centered">
+          <p>
+            🚀 Built with caffeine, curiosity, and a sprinkle of <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">open-source magic</a>.<br>
+            Inspired by the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project.<br>
+            Feel free to remix, fork, or clone this site—just remember to leave a digital high-five in the footer!<br>
+            <span style="font-size: 1.2em;">🦾</span> Licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>.
+          </p>
+          <p>
+            <span style="color: #ff8800;">May your datasets be robust and your models ever adversarial-proof!</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
