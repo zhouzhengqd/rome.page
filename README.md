@@ -5,7 +5,10 @@
 
 [Zheng Zhou](https://zhouzhengqd.github.io/)<sup>1</sup> &nbsp; [Wenquan Feng](https://shi.buaa.edu.cn/fengwenquan/zh_CN/index/132879/list/)<sup>1</sup> &nbsp;[Qiaosheng Zhang](https://qiaoshengzhang.github.io/)<sup>2 3</sup> &nbsp; [Shuchang Lyu](https://scholar.google.com/citations?user=SwGcxzMAAAAJ&hl=en)<sup>1</sup> &nbsp; [Qi Zhao](https://shi.buaa.edu.cn/07297/zh_CN/index.htm)<sup>1</sup> &nbsp; [Guangliang Cheng](https://sites.google.com/view/guangliangcheng)<sup>4</sup>
 
-<sup>1</sup> Beihang Univerisity &nbsp; <sup>2</sup> Shanghai Artificial Intelligence Laboratory &nbsp; <sup>3</sup> Shanghai Innovation Institute &nbsp; <sup>4</sup> University of Liverpool
+<sup>1</sup> Beihang University  
+<sup>2</sup> Shanghai Artificial Intelligence Laboratory  
+<sup>3</sup> Shanghai Innovation Institute  
+<sup>4</sup> University of Liverpool
 
 **International Conference on Machine Learning (ICML), 2025**
 
