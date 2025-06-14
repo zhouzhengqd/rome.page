@@ -261,21 +261,21 @@
           </p>
           <p>
             <strong>1. Information Bottleneck Objective</strong><br>
-            The IB principle seeks to learn a compressed representation <em>Z</em> of the input <em>X</em> that retains maximal information about the target <em>Y</em>. The IB objective is formulated as:
+            IB aims to find a representation $\mathcal{Z}$ that preserves as much information as possible about the target labels $\mathcal{Y}$, while reducing its dependence on the input $\mathcal{X}$. The IB objective is formulated as:
           </p>
           <p class="has-text-centered">
             <span style="font-size: 1.2em;">
               <strong>
                 <span style="font-family: 'Times New Roman', Times, serif;">
                   \[
-                  \mathcal{L}_{IB} = I(Z; X) - \beta I(Z; Y)
+                  R_{IB} \equiv \max_{\mathcal{Z}} I(\mathcal{Y};\mathcal{Z})-\beta I(\mathcal{X};\mathcal{Z}),
                   \]
                 </span>
               </strong>
             </span>
           </p>
           <p>
-            where \( I(\cdot;\cdot) \) denotes mutual information and \( \beta \) controls the trade-off between compression and prediction.
+           where $I$ denotes the mutual Information and $\beta$ controls the trade-off between $I(\mathcal{Y};\mathcal{Z})$ and $I(\mathcal{X};\mathcal{Z})$.
           </p>
           <p>
             <strong>2. Formulating ROME via information bottleneck</strong><br>
@@ -503,7 +503,7 @@
           
           <div class="publication-video">
             <!-- Youtube embed code here -->
-            <iframe src="https://recorder-v3.slideslive.com/?share=101071&s=f6350688-7f88-43b1-bfe5-ec69a43391ea" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe src="https://recorder-v3.slideslive.com/?share=101430&s=9391e026-7130-4e3a-855f-2c3bf8726b06" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
       </div>
